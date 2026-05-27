@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
-DATABASE_URL = "postgresql://postgres:Harine%4027@localhost:5432/meetora"
+DATABASE_URL = "postgresql://meetora_user:VQIWune2yd7gubUsJpdSNXI0G8q3YZHR@dpg-d8bauvhakrks73dhhpr0-a.ohio-postgres.render.com/meetora"
 
 engine = create_engine(DATABASE_URL)
 
